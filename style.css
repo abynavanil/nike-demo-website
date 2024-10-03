@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+
+}
+#logo{
+    width: 100px;
+    height: auto;
+    /* border: solid; */
+    
+
+    
+}
+nav{
+display: flex;
+/* border: solid; */
+background-color: rgb(242, 242, 242);
+/* position: sticky; */
+top: 0px;
+bottom: 0px;
+z-index: 1;
+
+/* width: 100%; */
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 50px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+    /* border: solid; */
+    width: 100%;
+    height: 100px;
+    
+
+
+
+}
+
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px 10px;
+    /* border: solid; */
+    display: inline;
+    justify-content: center;
+    font-weight: 400;
+    
+
+}
+
+.mainimg{
+    /* border: solid; */
+    margin: 75px 20px 100px 20px;
+    height: 600px;
+    cursor: pointer;
+    
+}
+.nike
+{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.icons 
+{
+    display: flex;
+    padding: 0 30px;
+    cursor: pointer;
+    font-size: large;
+}
+.icons i{
+    padding: 10px 10px;
+}
+.product{
+    height: 500px;
+    width: 400px;
+    cursor: pointer;
+    margin-right: 10px;
+    /* box-shadow: 0 5px 10px  ; */
+}
+.scroll
+{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 20px;
+  
+
+}
+.shop{
+    border-radius: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-top-left-radius: 0px;
+    padding: 2px;
+    cursor: pointer;
+
+
+}
+.featured h1{
+    font-family: "Bebas Neue", system-ui;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    /* border: solid; */
+   
+}
+.nikerunnning{
+    /* border: solid; */
+    margin: 100px 20px 35px 20px;
+    height: 700px;
+    cursor: pointer;
+    
+}
+#subhead-1{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 400;
+
+}
+#subhead-1-1{
+    text-align: center;
+    font-family: "Bebas Neue", system-ui;
+    font-size: 60px;
+    word-spacing: 0cap;
+    
+
+}
+#subhead-1-1-1{
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.subhead button{
+    align-items: center;
+    /* border: solid; */
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+.subhead{
+    /* border: solid; */
+    margin-bottom: 100px;
+}
+.men h1{
+    font-family: "Bebas Neue", system-ui;
+    margin-left:  20px; 
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+}
+.women h1{
+    font-family: "Bebas Neue", system-ui;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.sale h4{
+    /* border: solid; */
+    font-size: 140px;
+    text-align: center;
+    color: white;
+    
+}
+#saless{
+  /* background-color: black; */
+  margin-bottom: 50px;
+  border: solid;
+  background-color: black;
+
+
+}
+.salegrid{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(2,400px);
+    grid-template-columns: repeat(3,400px);
+    /* border: solid; */
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-left: 100px;
+    /* border: solid; */
+    margin-bottom: 100px;
+ 
+}
+.salegrid img{
+    width: 100%;
+    height: 100%;
+    /* border: solid; */
+    
+    
+}
+.shop1{
+    position: relative;
+    bottom: 40px;
+    left: 150px;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    /* border: solid; */
+
+}
+.onsale{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+    /* border: solid; */
+}
+/* footer */
+footer{
+    height: 50vh;
+    /* border: solid; */
+    margin: 50px 50px;
+    display: flex;
+}
+.footerlinks{
+    text-decoration: none;
+    color: rgb(169, 156, 156);
+}
+hr{
+    margin: 50px 50px;
+}
+.resources{
+    display: flex;
+    /* border: solid; */
+    flex-direction: column;
+    margin-right: 150px;
+
+}
+.footerlinks{
+    padding: 15px 0px;
+}
+.end{
+    margin-left: 500px;
+    display: flex;
+    color: rgb(242, 242, 242);
+    
+}
+.india{
+    text-decoration: none;
+    color: rgb(169, 156, 156);
+
+}
+#inc{
+    margin-left: 20px;
+    padding-bottom: 40px;
+
+}
+.shop:hover{
+    background-color:rgb(93, 93, 93)
+}
+.subhead button:hover{
+    background-color:rgb(93, 93, 93)
+}
+.shop1:hover{
+    background-color:rgb(93, 93, 93)
+}
+.link:hover{
+    font-weight: 700;
+ 
+}
+html{
+    scroll-behavior: smooth;
+}
+#homebutton {
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 300px;
+}
+#homebutton i{
+    text-decoration: none;
+    color: black;
+    font-size:40px;
+}
+/* mistake */
+.a{
+ font-weight: 400;
+
+}
+/* .btnmenu{
+    display: none;
+    font-size: 30px;
+
+}
+@media(max-width: 992px ){
+    .btnmenu{
+       display: block;
+
+    }
+    nav{
+        flex-direction: column;
+    }
+} */
+
+
+
